@@ -7,10 +7,10 @@ def reverse_each_word(str)
 end
 
 
-# def reverse_each_word(str)
-#   arr = str.split(" ")
-#   reverseArr = []
-#   arr.each {|str| reverseArr << str.reverse}
-#   reverseArr.join(" ")
+def reverse_each_word(str)
+  arr = str.split(" ")
+  reverseArr = []
+  arr.each {|str| reverseArr << str.reverse}
+  reverseArr.join(" ")
   
-# end
+end
